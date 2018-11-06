@@ -5,7 +5,7 @@ def return_answer(username):
     """return the answer from the answer book
     """
     list_answer = ["Just do it", "Forget about it", "You need relax",
-                   "Be confident!", "Just smile", "Your heart already know the answer", 
+                   "Be confident!", "Just smile", "Your heart already know the answer",
                    "You are stronger than you know"]
     number = random.randint(0, 6)
     answer = list_answer[number]
@@ -37,4 +37,3 @@ while i <= 10:
     #print(i)
 else:
     print("I can only answer 10 questions one today. See you tomorrow guys.Enjoy today!!")
-    
